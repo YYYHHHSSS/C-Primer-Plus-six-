@@ -1,11 +1,9 @@
 #include <iostream>
-
-
-// practice 1
-void p2_1(void)
+using namespace std;
+int main()
 {
-    std::cout << "Jimmy Chen" << std::endl;
-    std::cout << "China, Guangdong Province, Huizhou" << std::endl;
-
-    return;
+	cout << "Tao" << endl;
+	cout << "China,Jiangsu Province,Suzhou" << endl;
+	cin.get();
+	return 0;
 }
