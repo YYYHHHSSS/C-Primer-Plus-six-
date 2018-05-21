@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+double LightYears2Astronomical(double lightyears);
+int main()
+{
+	double lightyears;
+	double astronomical;
+	cout << "Enter the number of light years: ";
+	cin >> lightyears;
+	astronomical=LightYears2Astronomical(lightyears);
+	cout << lightyears << " light years = " << astronomical << " astronomical units." << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
+
+double LightYears2Astronomical(double lightyears)
+{
+	return(lightyears*63240);
+}
