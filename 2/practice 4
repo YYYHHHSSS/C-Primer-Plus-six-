@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int years = 0;
+	int months = 0;
+	cout << "Enter your age: ";
+	cin >> years;
+	months = 12 * years;
+	cout << years << " years contain " << months << " monthes!" << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
