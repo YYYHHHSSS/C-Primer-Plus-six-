@@ -1,24 +1,19 @@
 #include <iostream>
-
-using std::cout;
-using std::cin;
-using std::endl;
-
-
-//practice 1
+using namespace std;
 const int Foot2Inch = 12;
-void p3_1(void)
-{
-    int inch_input = 0;
-    int inch_output = 0;
-    int foot = 0;
-
-    cout << "Please input you height in inch:___\b\b\b";
-    cin >> inch_input;
-    foot = inch_input / Foot2Inch;
-    inch_output = inch_input % Foot2Inch;
-
-    cout << "Your height in inch was: " << inch_input << "; Your height in foot and inch was: " << foot << " foot " << inch_output << " inch!" << endl;
-
-    return;
+int main()
+{ 
+	int inch_input = 0;
+	int inch_output = 0;
+	int foot = 0;
+	cout << "Please input your height in inch: ___\b\b\b";
+	cin >> inch_input;
+	foot = inch_input / Foot2Inch;
+	inch_output = inch_input%Foot2Inch;
+	cout << "Your height in inch is: " << inch_input << " inch;" << endl;
+	cout<<"Your height in foot and inch is : " << foot << " foot " << inch_output << " inch!" << endl;
+	cin.get();
+	cin.get();
+	return 0;
 }
+
