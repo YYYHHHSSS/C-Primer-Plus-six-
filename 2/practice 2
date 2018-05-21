@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int ilong;
+	int yards;
+	cout << "Input the distance in long: ";
+	cin >> ilong;
+	yards = 220 * ilong;
+	cout << "The distance in yards is: " << yards << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
