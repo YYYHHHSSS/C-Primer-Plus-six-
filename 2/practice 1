@@ -1,0 +1,11 @@
+#include <iostream>
+
+
+// practice 1
+void p2_1(void)
+{
+    std::cout << "Jimmy Chen" << std::endl;
+    std::cout << "China, Guangdong Province, Huizhou" << std::endl;
+
+    return;
+}
