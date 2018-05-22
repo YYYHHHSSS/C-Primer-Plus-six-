@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double mile = 0.0;
+	double gallon = 0.0;
+	double mile_per_gallon = 0.0;
+	cout << "Enter the distance in mile you drive：";
+	cin >> mile;
+	cout << "Enter the consumption of oil: ";
+	cin >> gallon;
+	mile_per_gallon = mile / gallon;
+	cout << "Average fuel consumption: " << mile_per_gallon << " mile/gallon" << endl;		
+	cin.get();
+	cin.get();
+	return 0;
+}
