@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double fuel_consumption_eu = 0.0;
+	double fuel_consumption_us = 0.0;
+	cout << "Enter the fuel consumption in Europ standard: ";
+	cin >> fuel_consumption_eu;
+	fuel_consumption_us = fuel_consumption_eu / (3.875 * 62.14);
+	cout << "The fuel consumption in US standard is " << fuel_consumption_us << " /100KM" << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
