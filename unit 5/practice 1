@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int number1 = 0;
+	int number2 = 0;
+	int sum = 0;
+	cout << "Enter the first number: ";
+	cin >> number1;
+	cout << "Enter the second number: ";
+	cin >> number2;
+	for (int i = number1; i <= number2; i++)
+	{
+		sum += i;
+	}
+	cout << "The sum of number " << number1 << " to " << number2 << " , sum = " << sum << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
