@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+typedef struct CandyBar {
+	string name;
+	double weight;
+	int calories;
+}ST_CandyBar;
+
+int main()
+{
+	ST_CandyBar candybar = { "Mocha Munch",2.3,350 };
+	cout <<"The information of CandyBar" << endl;
+	cout <<"Name: " << candybar.name << endl;
+	cout <<"Weight: " << candybar.weight << endl;
+	cout<<"Calories: " << candybar.calories << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}
