@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+using namespace std;
+struct car {
+	string company;
+	int pro_year;
+};
+int main()
+{
+	unsigned int size = 0;
+	cout << "How many cars do you wish to catalog ? ";
+	cin >> size;
+	cin.get();
+
+	struct car *pcar = new struct car[size];
+	for (unsigned int i = 0; i < size; i++)
+	{
+		cout << "Car #" << i + 1 << ":" << endl;
+		cout << "Pleasew enter the make: ";
+		cin >> pcar[i].company;
+		cin.get();
+
+		cout << "Please enter the year make: ";
+		cin >> pcar[i].pro_year;
+		cin.get();
+	}
+	cout << "Here is your collection: " << endl;
+	for (unsigned int i = 0; i < size; i++)
+	{
+		cout << pcar[i].pro_year << " , " << pcar[i].company << endl;
+	}
+	cin.get();
+	cin.get();
+	return 0;
+}
